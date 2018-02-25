@@ -21,11 +21,12 @@ exit();
 if (!defined('WP_UNINSTALL_PLUGIN')) exit();
 
 // delete all options
-    delete_option ('p2013HeaderCode');
-	delete_option ('p2013HeaderAdDisplayOption');
-	delete_option ('p2013HeaderShowAfterContent');
-	delete_option ('p2013HeaderShowOnFrontpage');
-	delete_option ('p2013HeaderPriority');
+    delete_option ('p2015HeaderCode');
+	delete_option ('p2015HeaderAdDisplayOption');
+	delete_option ('p2015HeaderShowAfterContent');
+	delete_option ('p2015HeaderShowOnFrontpage');
+	delete_option ('p2015HeaderPriority');
+	delete_option ('p2015HeaderShowOnHomePage');
 
 // Thanks for using this plugin
 // If you'd like to try again someday check out http://wpguru.co.uk where it lives and grows
