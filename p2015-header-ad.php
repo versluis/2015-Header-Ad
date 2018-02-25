@@ -3,7 +3,7 @@
  * Plugin Name: 2015 Header Ad
  * Plugin URI: http://wpguru.co.uk
  * Description: inserts a block of ad code into the TwentyFifteen Theme's Header and after Posts
- * Version: 1.1
+ * Version: 0.1 Beta
  * Author: Jay Versluis
  * Author URI: http://wpguru.co.uk
  * License: GPL2
@@ -228,7 +228,7 @@ function p2015_header_ad_main  () {
     echo plugins_url('images/guru-header-2015.png', __FILE__);
     ?>" width="300"></a>
     </p5
-    <p><a href="http://wpguru.co.uk/" target="_blank">Plugin by Jay Versluis</a> | <a href="https://github.com/versluis/2015-Header-Ad" target="_blank">Fork me on GitHub</a> | <a href="http://wphosting.tv" target="_blank">WP Hosting</a></p>
+    ><p><a href="http://wpguru.co.uk/" target="_blank">Plugin by Jay Versluis</a> | <a href="https://github.com/versluis/2015-Header-Ad" target="_blank">Fork me on GitHub</a> | <a href="http://wphosting.tv" target="_blank">WP Hosting</a></p>
 	<?php
 } // end of main function
 // populate database with sample code
